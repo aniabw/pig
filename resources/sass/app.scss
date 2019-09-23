@@ -1,0 +1,80 @@
+// Fonts
+@import url('httplayerps://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Raleway&display=swap');
+
+@import "./../lib/fontawesome/scss/fontawesome.scss";
+@import "./../lib/fontawesome/scss/solid.scss";
+@import "./../lib/fontawesome/scss/brands.scss";
+
+
+body {
+  font-family: 'Gayathri', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.div-table {
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border-spacing: 5px;
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+  float: left;
+  border-bottom: 1px solid #2196F3;
+  text-align: center;
+}
+.div-table-col {
+  float: left;
+  display: table-column;
+  width: 100px;
+  background-color: #ffffff;
+  height: 30px;
+  padding:10px;
+
+  &.title { font-weight: bold;}
+}
+
+.game {
+  display: inline-block;
+  padding: 10px 50px 10px 10px;
+}
+
+.results {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#player {
+  height: 120px;
+  width: 120px;
+  border: 0px solid black;
+}
+
+#resultAreaPlayer2 {
+  display: inline-block;
+}
+
+#currentResultPlayer2 {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#resultAreaPlayer1 {
+  display: inline-block;
+}
+
+#currentResultPlayer1 {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#message {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3CCC45;
+}
+/****************************************/

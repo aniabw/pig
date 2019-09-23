@@ -1,0 +1,14 @@
+{
+    "name": "PigGame",
+    "alias": "piggame",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\PigGame\\Providers\\PigGameServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
